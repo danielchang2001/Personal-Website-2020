@@ -29,6 +29,7 @@ section{
 }
 
 img{
+    padding-top: 300px;
     width: 100%;
     max-width: 100%;
 }
@@ -84,7 +85,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width:80%;
+    width: 35%;
     height: 100vh;
     background-color: var(--main-font-color-dark);
     padding: 4.4rem;
@@ -125,4 +126,41 @@ header{
 .open .nav::before{
     opacity: 1;
     transform: scale(1);
+}
+
+.nav-item{
+    border-bottom: 2px solid rgba(255,255,255, .3);
+}
+
+.nav-link{
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    margin-right: -2px;
+    transition: color.5s;
+}
+.nav-link:hover{
+    color: var(--secondary-font-color);
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: url("images/background.png") center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.headline{ 
+    color: #fff;
+    font-size: 7rem;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: .5rem;
+    margin-right: -.5rem;
 }
