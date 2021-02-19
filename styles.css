@@ -150,29 +150,41 @@ header{
 }
 
 body{
-    background: url("images/background.png") center no-repeat;
-    background-position-y: 0px;
+    background: url("images/cloudstwo.png") center no-repeat;
+    background-position-y: 100rem;
     background-size: cover;
 }
 
 .hero{
     width: 100%;
     height: 100vh;
-    /* background: url("images/background.png") center no-repeat;
-    background-size: cover; */
+    background: url("images/clouds.png") center no-repeat;
+    background-size: cover;
+    background-position-y: -20rem;
     display: flex;
     align-items: center;
     text-align: center;
 }   
 
+.headline2{ 
+    color: yellow;
+    font-size: 3rem;
+    font-family: var(--secondary-font);
+    font-weight: 900;
+    letter-spacing: -0.2rem;
+    /* margin-right: 100rem; */
+    margin-top: 0rem;
+    animation: slide-in .6s forwards;
+}
+
 .headline{ 
-    color: #fff;
+    color: yellow;
     font-size: 8rem;
     font-family: var(--main-font);
     font-weight: 900;
-    letter-spacing: 1rem;
-    margin-right: 100rem;
-    margin-top: -38rem;
+    letter-spacing: 0rem;
+    /* margin-right: 100rem; */
+    margin-top: -15rem;
     animation: scale .5s forwards;
 }
 
@@ -191,19 +203,29 @@ body{
     }
 }
 
+@keyframes slide-in {
+    0%{
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
 .global-headline{
-    color: #fff;
+    color: black;
     text-align: center;
     margin-bottom: 50px;
 }
 
 .sub-headline{
-    
     font-size: 120px;
 }
 
 .moodtrack-title{
-    color: #fff;
+    color:black;
     text-align: center;
     font-size: 60px;
 }
@@ -212,8 +234,9 @@ body{
     height: 0px;
 }
 
+
 .projects p{
-    color: #fff;
+    color:black;
     line-height: 1.6;
     text-align:center;
     margin-bottom: 2.4rem;
