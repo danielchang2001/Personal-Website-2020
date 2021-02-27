@@ -432,3 +432,21 @@ p{
 }
 
 .projectText {padding-bottom: 0px;}
+
+.contact-title{
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.contact-title h1{
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 8rem;
+}
+
+.contact-title h2{
+    font-family: var(--secondary-font);
+    font-weight: 300;
+    font-size: 3rem;
+}
