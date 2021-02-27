@@ -185,6 +185,16 @@ body{
     letter-spacing: 0rem;
     /* margin-right: 100rem; */
     margin-top: -15rem;
+    text-shadow: 1px 1px 1px #000000,
+        1px 2px 1px #000000,
+        1px 3px 1px #000000,
+        1px 4px 1px #000000,
+        1px 5px 1px #000000,
+        1px 6px 1px #000000,
+        1px 7px 1px #000000,
+        1px 8px 1px #000000,
+        1px 9px 1px #000000,
+        1px 10px 1px #000000;
     animation: scale .5s forwards;
 }
 
@@ -273,15 +283,23 @@ body{
 }
 
 #about h2{
+    color: #ffbc7e;
     margin-bottom: 47px;
     margin-top: 12px;
     font-family: var(--main-font);
     font-size: 7rem;
+    text-shadow: 1px 1px 1px rgb(107, 107, 107),
+        1px 2px 1px rgb(0, 0, 0),
+        1px 3px 1px rgb(0, 0, 0),
+        1px 4px 1px rgb(0, 0, 0),
+        1px 5px 1px rgb(0, 0, 0),
+        1px 6px 1px rgb(0, 0, 0);
 }
 
 #about p{
     font-family: var(--body-font);
     font-weight: 500;
+    font-size: 17px;
 }
 
 #about .social-link-text{
@@ -313,8 +331,9 @@ body{
 
 #about .about-link li a:hover{
     color: black;
-    background: skyblue;
+    background: rgb(187, 219, 255);
     border-color: skyblue;
+    transform: scale(1.2);
 }
 
 #about .about-img{
@@ -347,7 +366,10 @@ p{
     color: #d6c6b2
 }
 
-.btn-danger{
+.btn-warning{
+    color:rgb(46, 46, 46);
+    font-family: var(--main-font);
+    font-weight: 900;
     border-radius: 0;
     padding: 10px 20px;
 }
@@ -408,14 +430,17 @@ p{
 }
 
 .card-text p{
+    font-family: 'Roboto';
     margin-top: 10px;
     color: black;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 500;
     text-align: left;
 }
 
 .card-text h2{
+    font-family: var(--main-font);
+    font-weight: 900;
     margin-top: 0px;
     font-size: 35px;
 }
@@ -450,6 +475,7 @@ p{
 }
 
 .card-stats .value {
+    font-family: var(--body-font);
     font-size: 22px;
     font-weight: 500;
 }
@@ -465,9 +491,14 @@ p{
     font-family: var(--main-font);
     font-weight: 600;
     font-size: 8rem;
-    color: black;
+    color: white;
     letter-spacing: -8px;
-
+    text-shadow: 1px 1px 1px black,
+        1px 2px 1px black,
+        1px 3px 1px black,
+        1px 4px 1px black,
+        1px 5px 1px black,
+        1px 6px 1px black;
 }
 
 .projectLabel span{
