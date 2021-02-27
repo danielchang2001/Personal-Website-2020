@@ -252,9 +252,10 @@ body{
 }
 
 #about .about-img .profile{
+    margin-top: 11px;
     position: relative;
     bottom: 161px;
-    top: 12px;
+    top: 50px;
     left: -2px; 
 }
 
