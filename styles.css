@@ -9,9 +9,9 @@
 }
 
 :root{
-    --main-font: 'Montserrat', sans-serif;
+    --main-font: 'Chivo', normal;
     --secondary-font: 'Work Sans', sans-serif;
-    --body-font: 'Cabin', sans-serif;
+    --body-font: 'Roboto';
     --main-font-color-dark: #252525;
     --secondary-font-color: #c59d5f;
     --body-font-color: #515151;
@@ -167,7 +167,7 @@ body{
 }   
 
 .headline2{ 
-    color: yellow;
+    color: #0772ff;
     font-size: 3rem;
     font-family: var(--secondary-font);
     font-weight: 900;
@@ -178,7 +178,7 @@ body{
 }
 
 .headline{ 
-    color: yellow;
+    color: white;
     font-size: 8rem;
     font-family: var(--main-font);
     font-weight: 900;
@@ -275,6 +275,13 @@ body{
 #about h2{
     margin-bottom: 47px;
     margin-top: 12px;
+    font-family: var(--main-font);
+    font-size: 7rem;
+}
+
+#about p{
+    font-family: var(--body-font);
+    font-weight: 500;
 }
 
 #about .social-link-text{
@@ -297,10 +304,10 @@ body{
     border-radius: 50%;
     line-height: 50px;
     text-align: center;
-    border: 1px solid skyblue;
+    border: 1px solid #0772ff;
     margin-right: 10px;
     font-size: 22px;
-    color: blueviolet;
+    color: #0772ff;
     transition: all .3s;
 }
 
@@ -385,12 +392,13 @@ p{
 }
 
 .card-text .date{
-    color: rgb(255,7,110);
-    font-size: 13px;
+    color: rgb(0, 81, 255);
+    font-weight: 500;
+    font-size: 15px;
 }
 
 .card-text p{
-    color: grey;
+    color: black;
     font-size: 15px;
     font-weight: 300;
     text-align: left;
@@ -408,7 +416,7 @@ p{
     grid-template-rows: 1fr;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background: rgb(255, 7, 100);
+    background: #0772ff;
 }
 
 .card-stats .stat {
