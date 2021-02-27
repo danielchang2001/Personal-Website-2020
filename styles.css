@@ -375,6 +375,8 @@ p{
 
     transition: 0.2s ease;
     cursor: pointer;
+    margin: 50px;
+
 }
 
 .card-image {
@@ -383,7 +385,15 @@ p{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
+}
 
+.card-gif {
+    grid-area: image;
+    background: url("images/animation.gif");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+    background-position-x: -60px;
 }
 
 .card-text {
@@ -398,6 +408,7 @@ p{
 }
 
 .card-text p{
+    margin-top: 10px;
     color: black;
     font-size: 15px;
     font-weight: 300;
@@ -406,7 +417,7 @@ p{
 
 .card-text h2{
     margin-top: 0px;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .card-stats{
@@ -481,3 +492,4 @@ p{
     }
 }
 
+.projectText {padding-bottom: 0px;}
