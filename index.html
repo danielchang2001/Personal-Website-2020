@@ -126,7 +126,25 @@
             <h2>dchang30@ucsc.edu</h2>
         </div>
         <div class="contact-form">
-            <form id="contact-form" method="post" action="contact-form-handler.php">
+            <form action="https://formspree.io/f/xzbkleja" method="POST">
+            <label for="full-name">
+                Name:
+                <input class="form-control" type="text" name="name" id="full-name" required="">
+            </label>
+            <br>
+            <label>
+                Email:
+                <input class="form-control" type="text" name="_replyto" required="">
+            </label>
+            <br>
+            <label>
+                Message:
+                <textarea class="form-control" name="message" required=""></textarea>
+            </label>
+            <br>
+            <input type="submit" class="form-control submit" value="Send Message">
+          </form>
+            <!-- <form id="contact-form" method="post" action="https://formspree.io/f/{form_id}">
                 <input name="name" type="text" class="form-control" placeholder="Your Name" required>
                 <br>
                 <input name="email" type="email" class="form-control" placeholder="Your Email" required>
@@ -134,8 +152,7 @@
                 <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea>
                 <br>
                 <input type="submit" class="form-control submit" value="Send Message">
-                
-            </form>
+            </form>  -->
         </div>
     </section>
 <script src="main.js"></script>
