@@ -497,6 +497,7 @@ form .submit {
 form .submit:hover{
     background-color: #ff9532;
     cursor: pointer;
+    color: white;
     
 }
 
