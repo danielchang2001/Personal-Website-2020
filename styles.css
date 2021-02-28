@@ -87,6 +87,7 @@ body{
     background: url("images/cloudsthree.png") center no-repeat;
     background-position-y: 850px;
     background-size: cover;
+    background-repeat: repeat;
 }
 
 .hero{
@@ -307,7 +308,7 @@ p{
 
     transition: 0.2s ease;
     cursor: pointer;
-    margin: 50px;
+    margin: 20px;
 
 }
 
