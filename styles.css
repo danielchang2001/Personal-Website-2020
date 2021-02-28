@@ -319,7 +319,7 @@ p{
 
 .card-gif {
     grid-area: image;
-    background: url("images/animation.gif");
+    background: url("images/animation-min.gif");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
