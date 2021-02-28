@@ -83,7 +83,7 @@ header{
 
 body{
     background: url("images/cloudstwo.png") center no-repeat;
-    background-position-y: 100rem;
+    background-position-y: 85rem;
     background-size: cover;
 }
 
@@ -459,6 +459,8 @@ form {
     justify-content: center;
     display: flex;
     margin: 0 auto;
+    font-family: 'Roboto';
+    font-weight: 900;
 }
 
 .form-control{
@@ -466,8 +468,8 @@ form {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 1px solid gray;
-    color: white;
+    border-bottom: 1px solid black;
+    color: black;
     font-size: 18px;
     margin-bottom: 16px;
 }
@@ -477,17 +479,39 @@ input{
 }
 
 form .submit {
-    background: #ff5722;
+    font-family: 'Roboto';
+    background: #ffa652;
     border-color: transparent;
-    color: #fff;
+    color: black;
     font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    font-weight: 600;
+    letter-spacing: 1px;
     height: 50px;
     margin-top: 20px;
+    border-radius: 15px;
 }
 
 form .submit:hover{
-    background-color: #f44336;
+    background-color: #ff9532;
     cursor: pointer;
+    
+}
+
+.contact-title h1 {
+    color: #ffbc7e;
+    letter-spacing: -2px;
+    text-shadow: 1px 1px 1px black,
+        1px 2px 1px black,
+        1px 3px 1px black,
+        1px 4px 1px black,
+        1px 5px 1px black,
+        1px 6px 1px black;
+}
+
+.contact-title h2 {
+    color: white;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px 1px black,
+        1px 2px 1px black;
+
 }
