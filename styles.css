@@ -319,7 +319,7 @@ p{
 
 .card-gif {
     grid-area: image;
-    background: url("images/moodtrack.png");
+    background: url("images/animation.gif");
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
