@@ -87,7 +87,7 @@ body{
     background: url("images/cloudsthree.png") center no-repeat;
     background-position-y: 500px;
     background-size: cover;
-
+    background-repeat: repeat;
 }
 
 .hero{
