@@ -83,7 +83,7 @@ header{
 
 body{
     background: url("images/cloudstwo.png") center no-repeat;
-    background-position-y: 85rem;
+    background-position-y: 500px;
     background-size: cover;
 }
 
