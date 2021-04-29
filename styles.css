@@ -255,11 +255,13 @@ body{
 }
 
 #about .about-img .profile{
+    zoom: 0.7;
+    -moz-transform: scale(0.6);
     margin-top: 11px;
     position: relative;
     bottom: 161px;
-    top: 50px;
-    left: -2px; 
+    top: 20px;
+    left: 135px; 
 }
 
 .color-3{
@@ -295,6 +297,8 @@ p{
 }
 
 .card {
+    zoom: 0.7;
+    -moz-transform: scale(0.7);
     display: grid;
     grid-template-columns: 650px;
     grid-template-rows: 520px 210px 80px;
@@ -308,7 +312,7 @@ p{
 
     transition: 0.2s ease;
     cursor: pointer;
-    margin: 50px;
+    margin: 0px;
 
 }
 
@@ -392,7 +396,7 @@ p{
 }
 
 .card:hover {
-    transform: scale(1.1);
+    transform: scale(0.9);
     box-shadow: 5px 5px 15px rgba(0,0,0,.8);
 }
 
