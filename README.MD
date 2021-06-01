@@ -1,12 +1,3 @@
-PersonalSite:
+My first website design in 2020.
 
-www.danielchangcreations.me is a website I created using HTML, CSS, and a bit of JavaScript. 
-I wanted to capture the feeling of creativity and open mindedness, which is why I chose a sky theme to represent my personal website.
-
-Note: The website is not yet optimized for mobile devices.
-
-Thank you,
-Daniel
-
-
-
+Link is not available since a new website I built in 2021 took its place.
