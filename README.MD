@@ -1,5 +1,8 @@
-My first website design in 2020.
+# Personal-Website-2020
 
-Link is not available since a new website I built in 2021 took its place.
+A website I developed for my first portfolio.
 
-Check out my 2021 website design: https://github.com/danielchang2001/Personal-Website-2021
+## Description
+
+* Developed with HTML and JavaScript. Styled with CSS.
+* Open index.html on local environment to view the website.
